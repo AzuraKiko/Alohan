@@ -1,0 +1,303 @@
+v2.4.7
+======
+Nov 1, 2024
+* Update Selenium 4.26.0 support CDP 130
+
+v2.4.6
+======
+Oct 29, 2024
+* Update Selenium 4.25.0
+* Fix issue headless mode on Jenkins Server Linux
+* Update dependency version latest
+
+v2.4.5
+======
+Sep 07, 2024
+* Optimize method in WebUI keyword
+* Remove handle QR Code (google.zxing)
+
+v2.4.4
+======
+Sep 05, 2024
+* Update Selenium 4.24.0
+* Support CDP 128
+
+v2.4.3
+======
+Aug 14, 2024
+* Update Selenium 4.23.1
+* Upgrade all libraries latest version
+
+v2.4.2
+======
+Jul 26, 2024
+* Update Selenium 4.23.0
+* Update support CDP 127 (Chromium)
+* Update CDP 127 in WebUI keyword
+
+v2.4.1
+======
+Jun 24, 2024
+* Update Selenium 4.22.0
+* Update support CDP 126 (Chromium)
+* Update CDP 126 in WebUI keyword
+
+v2.4.0
+======
+May 22, 2024
+* Fix screenshot in report
+* Update add screenshot for all steps
+* Update config.properties
+
+v2.3.0
+======
+May 17, 2024
+* Update Selenium 4.21.0
+* Update support CDP 125 (Chromium)
+* Update CDP Network in WebUI
+
+v2.2.3
+======
+Apr 26, 2024
+* Update Selenium 4.20.0
+* Update support CDP 124 (Chromium)
+* Update CDP Network in WebUI
+
+v2.2.2
+======
+Apr 02, 2024
+* Update Selenium 4.19.1
+* Update support CDP 123 (Chromium)
+
+v2.2.0
+======
+Jan 26, 2024
+* Update Selenium 4.17.0
+* Update support CDP 121 (Chromium)
+* Update Dependencies in pom.xml
+
+v2.1.0
+======
+Dec 10, 2023
+* Update Selenium 4.16.1
+* Update support CDP 120 (Chrome)
+* Update devtools v120 in WebUI keyword
+
+v2.0.2
+======
+Nov 4, 2023
+* Update Selenium 4.15.0
+* Update support CDP 119 (Chrome)
+* Update devtools v119 in WebUI keyword
+
+v2.0.1
+======
+Oct 12, 2023
+* Update Selenium 4.14.0
+* Support Chrome browser to 118
+* Remove selenium-http-jdk-client
+
+v2.0.0
+======
+Sep 27, 2023
+* Update Selenium 4.13.0
+* Support Chrome browser 117
+* Update javadoc for all functions in WebUI keywords
+* Update all dependency latest version in pom.xml
+
+v1.9.9
+======
+Sep 6, 2023
+* Update Selenium 4.12.1
+* Support Chrome browser 116
+* Update test cases sample CMS
+
+v1.9.8
+======
+Sep 5, 2023
+* Update Selenium 4.12.1
+* Support Chrome browser 116
+* Change package name from anhtester.com to com.anhtester
+
+v1.9.7
+======
+Sep 4, 2023
+* Update Selenium 4.12.0
+* Support Chrome browser 116
+
+v1.9.6
+======
+Aug 1, 2023
+* Update Selenium 4.11.0
+* Support Chrome browser 115
+* Remove WebDriverManager in BrowserFactory enum
+
+v1.9.5
+======
+Jun 16, 2023
+* Update Selenium 4.10.0
+* Update TestNG 7.8.0
+* Update WebUI keyword
+* Fixed "clearText" function in WebUI keyword
+
+v1.9.4
+======
+May 25, 2023
+* Update Selenium 4.9.1
+* Update all dependency version
+* Add Data Faker
+* Add Retry Failed Test (IAnnotationTransformer)
+* Add Test cases sample for CMS system
+* Fixed run headless mode
+
+v1.9.3
+======
+Jan 28, 2023
+* Upgrade Selenium 4.8.0
+* Upgrade TestNG 7.7.1
+* Update WebUI keyword to support CDP Chromium v109 and logs detail for some methods
+* Fixed added an attachment screenshot to Allure Report with TestNG > 7.4.0
+* Added io.qameta.allure.listener.TestLifecycleListener and AllureListener
+* Fixed read Multiple Properties files
+
+v1.9.2
+======
+Dec 29, 2022
+* Update Selenium 4.7.2
+* Update WebUI keyword
+* Update logs for Report (Extent and Allure)
+
+v1.9.1
+======
+Nov 25, 2022
+* Fixed issue https://github.com/anhtester/AutomationFrameworkSelenium/issues/6
+* Error reason: the screenshot with Base64 type can not display in the PDF report. I converted it to a file attachment from this source.
+* Update ExtentReportManager class to update addScreenShot method
+* Added getScreenshot function in CaptureHelper class
+
+v1.9.0
+======
+Nov 8, 2022
+* Update Selenium 4.6.0
+* Use Selenium Manager to auto-download the Binary Browser version
+* Remove WebDriverManger in BrowserFactory
+* Update WebUI keyword
+* Update Config for Selenium Grid
+* Update README
+
+v1.8.2
+======
+Oct 7, 2022
+* Add PDF report
+* Update Selenium 4.5.0
+* Update WebUI keyword
+* Update README
+
+v1.8.1
+======
+Sep 20, 2022
+* Fix read Excel data
+* Config Telegram Token and ChatID
+
+v1.8.0
+======
+Sep 19, 2022
+* Add send message or report file to Telegram Bot
+* Add verify download file
+* Add Drag and Drop HTML 5 ( WebUI.dragAndDropHTML5(fromElement, toElement) )
+* Optimize WebUI keyword (wait, function,...)
+* Fix error when checking data in the table by column
+* Update data test and change website demo
+
+v1.7.0
+======
+Aug 11, 2022
+* Optimize wait in WebUI keyword
+* Add function convert WebElement to By
+* Change source to Page Object Model read object in class page. Remove object from the properties file
+* Update Selenium v4.4.0 and WebDriverManager v5.2.3 (support Chrome 104 CDP)
+
+v1.6.0
+======
+Jul 25, 2022
+* Add more complete verify functions in the WebUI keyword
+* Remove IE browser
+* Update Selenium 4.3.0 and WebDriverManager 5.2.1 and more in pom.xml
+* Update test cases sample
+* Add config: smartWait, Record video, Zip folder,...
+AND MORE
+
+v1.5.1
+======
+Jun 14, 2022
+* Change the way to read data from ExcelHelper to support parallel running
+* Update test case sample
+* Update version for dependency in pom.xml (Selenium 4.2.2, Apache POI 5.2.2, ...)
+
+v1.5.0
+======
+Jun 3, 2022
+* Support for all Java version
+* Optimize WebUI keyword
+* Add function get Xpath dynamic
+* Remove the test-supplier library
+* Change the way to read test data from Excel
+* Update dependencies version in pom.xml (Selenium, WebDriverManager,...)
+
+v1.4.0
+======
+May 18, 2022
+* Add function and optimize wait in WebUI keyword
+* Add LanguageUtils to removeAccent for Vietnamese and convertCharset
+* Add function makeSlug to convert string to slug
+* Add config screenshot_all_steps to screenshot all steps and import them to Allure Report, ExportData (in WebUI keyword)
+* Add config WAIT_SLEEP_STEP for every step (in WebUI keyword)
+* Update FrameworkAnnotation is not required before @test annotation (in TestListener)
+* Format value from properties file for UTF-8
+* Add Authentication using Selenium 4 in the WebUI keyword
+* Add getQRCode using google.zxing library in WebUI keyword
+
+v1.3.0
+======
+May 9, 2022
+* Add LocalStorageUtils class to handle local storage
+* Add functions in keyword WebUI: handle Window and Tab, screenshotElement, printPage, setWindowPosition,...
+* Optimize code in keyword
+* Add and optimize code sample in TestHandle class (testcases package)
+* Update version dependencies in pom.xml: Selenium 4.1.4,...
+...more...
+
+v1.2.0
+======
+Apr 21, 2022
+* Add and update functions to the WebUI keyword (softAssert, verifyElementTextEquals,...)
+* Optimize functions Wait and some handle functions in the WebUI class
+* Delete and update class in the Utils package
+* Add FailureHandling enum to check flow control (STOP_ON_FAILURE, CONTINUE_ON_FAILURE, OPTIONAL)
+* Add read data from Excel file with Hashtable (in SignInTest)
+* Add read data from the JSON file (JsonUtils)
+* Update ClientTest class
+
+v1.1.0
+======
+Apr 10, 2022
+* Delete class not used
+* Update version in pom.xml
+* Update information for the test case in ExtentReport
+* Add an icon for the browser in ExtentReport
+* Add function in some class
+* Customize parallel sample test case
+
+v1.0.0
+======
+Apr 5, 2022
+SOME FEATURES IN VERSION 1.0
+* Run the parallel test case
+* Read Object web element from a properties file
+* Extent Report
+* Allure Report
+* Send Mail after the run test (Report information and HTML file attachment)
+* Logfile
+* Record video and Screenshot test case for failed
+* Read data test form Excel file (xlsx, csv, json,...) with class define fields (param: Client client)
+* Base function in the library (WebUI, Utils,...) ...etc.. (wait, dynamic xpath,...)
